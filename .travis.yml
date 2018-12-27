@@ -14,4 +14,4 @@ jobs:
         - ~/monorepo pull
         - git add .
         - git commit -am "Update"
-        - git push
+        - git push https://SamyPesse:$GITHUB_TOKEN@github.com/MonoDocs/bigrepo master
